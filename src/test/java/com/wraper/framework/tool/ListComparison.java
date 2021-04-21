@@ -1,6 +1,6 @@
 package com.wraper.framework.tool;
 
-import com.wraper.app.base.MvblUtil;
+import com.wraper.app.base.SWrapUtil;
 import org.apache.commons.collections4.MultiValuedMap;
 import org.apache.commons.collections4.multimap.ArrayListValuedHashMap;
 import org.apache.commons.lang3.StringUtils;
@@ -125,7 +125,7 @@ public class ListComparison {
   }
 
   public static boolean areListsIdenticalButOrderIrrelevant(List<String> expected, List<String> actual) {
-    if (MvblUtil.md5(concatenateList(expected)).equals(MvblUtil.md5(concatenateList(actual)))) {
+    if (SWrapUtil.md5(concatenateList(expected)).equals(SWrapUtil.md5(concatenateList(actual)))) {
       return true;
     }
     // list size must be identical
@@ -175,7 +175,7 @@ public class ListComparison {
 
   /** comparison, but no junit asserts **/
   public static boolean areListsIdentical(List<String> expected, List<String> actual, List<Integer> excluded) {
-    if (MvblUtil.md5(concatenateList(expected, excluded)).equals(MvblUtil.md5(concatenateList(actual, excluded)))) {
+    if (SWrapUtil.md5(concatenateList(expected, excluded)).equals(SWrapUtil.md5(concatenateList(actual, excluded)))) {
       return true;
     }
     // otherwise find the (first) difference
@@ -197,11 +197,11 @@ public class ListComparison {
       sNotNullF = (sNotNullF == null ? "" : sNotNullF);
 
       // remove supplementary unicode characters
-      if (!MvblUtil.basicString(sNotNullE).equals(MvblUtil.basicString(sNotNullF))) {
+      if (!SWrapUtil.basicString(sNotNullE).equals(SWrapUtil.basicString(sNotNullF))) {
         logger.trace("Erwarteter Wert [" + sNotNullE + "]");
-        logger.trace("            Hex [" + MvblUtil.hex(sNotNullE) + "]");
+        logger.trace("            Hex [" + SWrapUtil.hex(sNotNullE) + "]");
         logger.trace("Vorhandener Wert[" + sNotNullF);
-        logger.trace("            Hex [" + MvblUtil.hex(sNotNullF) + "]");
+        logger.trace("            Hex [" + SWrapUtil.hex(sNotNullF) + "]");
         logger.trace("Listen sind nicht identisch");
         logger.trace("  Erwartet:  <{}>", ListComparison.printList(expected));
         logger.trace("  Vorhanden: <{}>", ListComparison.printList(actual));
@@ -382,11 +382,11 @@ public class ListComparison {
   }
 
   private static String getHashFromList(List<String> list) {
-    return MvblUtil.md5(concatenateList(list));
+    return SWrapUtil.md5(concatenateList(list));
   }
 
   private static String getHashFromList(List<String> list, List<Integer> ignoreColumns) {
-    return MvblUtil.md5(concatenateList(list, ignoreColumns));
+    return SWrapUtil.md5(concatenateList(list, ignoreColumns));
   }
 
   public static String getHashForTable(List<List<String>> table) {
@@ -394,13 +394,13 @@ public class ListComparison {
     for (List<String> row : table) {
       sb.append(concatenateList(row));
     }
-    return MvblUtil.md5(sb.toString());
+    return SWrapUtil.md5(sb.toString());
   }
 
   private static String concatenateList(List<String> list) {
     StringBuilder concatenated = new StringBuilder();
     for (String s : list) {
-      concatenated.append('|').append(s == null ? "" : MvblUtil.basicString(s));
+      concatenated.append('|').append(s == null ? "" : SWrapUtil.basicString(s));
     }
     return concatenated.toString();
   }
@@ -412,7 +412,7 @@ public class ListComparison {
       if (excludeColumns.contains(index)) {
         concatenated.append("|");
       } else {
-        concatenated.append('|').append(listItem == null ? "" : MvblUtil.basicString(listItem));
+        concatenated.append('|').append(listItem == null ? "" : SWrapUtil.basicString(listItem));
       }
       index++;
     }
@@ -598,7 +598,7 @@ public class ListComparison {
   }
 
 //  public static List<Integer> findRows(List<List<String>> table, MvblValuedEnum... values) {
-//    return findRows(table, MvblUtil.listOf((Object[]) values));
+//    return findRows(table, SWrapUtil.listOf((Object[]) values));
 //  }
 
   /** same as findRowByValues but returns -1 when no row is found and -2 when >1 is found **/
@@ -740,12 +740,12 @@ public class ListComparison {
 
   // public static void main(String[] args) {
   // String s = "some text";
-  // System.out.println(MvblUtil.hex(s));
+  // System.out.println(SWrapUtil.hex(s));
   // String s2 = s + "\u00A0" + s;
-  // System.out.println(MvblUtil.hex(s2));
+  // System.out.println(SWrapUtil.hex(s2));
   //
-  // System.out.println(MvblUtil.codepoint(s));
-  // System.out.println(MvblUtil.codepoint(s2));
+  // System.out.println(SWrapUtil.codepoint(s));
+  // System.out.println(SWrapUtil.codepoint(s2));
   //
   // }
 

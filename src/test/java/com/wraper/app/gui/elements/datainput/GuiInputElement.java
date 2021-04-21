@@ -77,7 +77,7 @@ public class GuiInputElement implements  Textual {
 //      return;
 //    }
 //    gui.findElementBy(byInput).sendKeys(pText);
-//    MvblUtil.wait(100);
+//    SWrapUtil.wait(100);
 //    gui.findElementBy(byInput).sendKeys(Keys.TAB);
 //    gui.waitUntilLoadingCompleted(250);
 //  }

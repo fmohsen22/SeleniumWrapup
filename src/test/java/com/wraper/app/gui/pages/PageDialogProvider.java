@@ -7,7 +7,7 @@ import com.wraper.framework.pageobject.PageObjectProvider;
 /*
  * Interface für Bereitstellungsroutinen von PageObjects
  */
-public interface MvblPageDialogProvider extends PageObjectProvider {
+public interface PageDialogProvider extends PageObjectProvider {
 
     FacebookLoginPage facebookLoginPage();
 

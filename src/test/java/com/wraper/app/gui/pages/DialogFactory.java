@@ -7,7 +7,7 @@ import com.wraper.framework.logger.MyLogger;
 import org.openqa.selenium.WebDriver;
 
 
-public class DialogFactory implements MvblPageDialogProvider {
+public class DialogFactory implements PageDialogProvider {
 
 
   private static DialogFactory                       theDialogFactory  = null;

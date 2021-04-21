@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
  * Sammlung div. statischer Hilfsroutinen
  *
  */
-public class MvblUtil {
+public class SWrapUtil {
 
 
   private static final Pattern PATT_DATUM    = Pattern.compile(".*(\\d\\d\\.\\d\\d\\.\\d\\d\\d\\d).*");
@@ -237,7 +237,7 @@ public class MvblUtil {
         ;
       } else {
         if (Character.MATH_SYMBOL != charType) // to prevent a huge amount of logged data
-          MyLogger.WarnLog(MvblUtil.class,String.format("'%s'/'%d/'0x%04x' (Typ %d) potenziell negativ bei Vergleichen", ch, (int) ch, (int) ch, charType));
+          MyLogger.WarnLog(SWrapUtil.class,String.format("'%s'/'%d/'0x%04x' (Typ %d) potenziell negativ bei Vergleichen", ch, (int) ch, (int) ch, charType));
         sb.append(ch);
       }
     }
@@ -330,9 +330,9 @@ public class MvblUtil {
 //      if (element == null)
 //        liste.add("");
 //      else if (element instanceof LocalDate)
-//        liste.add(((LocalDate) element).format(MvblUtil.DATE_FORMATTER_DEFAULT));
+//        liste.add(((LocalDate) element).format(SWrapUtil.DATE_FORMATTER_DEFAULT));
 //      else if (element instanceof YearMonth)
-//        liste.add(((YearMonth) element).format(MvblUtil.DATE_FORMATTER_YEAR_MONTH));
+//        liste.add(((YearMonth) element).format(SWrapUtil.DATE_FORMATTER_YEAR_MONTH));
 //      else if (element instanceof MvblMultiValuedEnum && type == ListType.ID)
 //        liste.add(((MvblMultiValuedEnum) element).id());
 //      else if (element instanceof MvblValuedEnum) {
@@ -473,7 +473,7 @@ public class MvblUtil {
   public static boolean isValidDateFormat(String date) {
 
     try {
-      DateFormat df = new SimpleDateFormat(MvblUtil.DATE_FORMAT_DEFAULT);
+      DateFormat df = new SimpleDateFormat(SWrapUtil.DATE_FORMAT_DEFAULT);
       df.setLenient(false);
       df.parse(date);
       return true;
