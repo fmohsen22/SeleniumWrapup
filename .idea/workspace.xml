@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="">
+    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="util">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +74,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SimpleFormTest.testSimpleForm">
+    <configuration name="example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wraper.example1" />
+      <module name="SeleniumWrapup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wraper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FacebookLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWrapup" />
       <extension name="coverage">
@@ -102,21 +114,6 @@
       <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.facebook.FacebookLogin" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWrapup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wraper.testcases.seleniumeasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wraper.testcases.seleniumeasy" />
-      <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.seleniumeasy.SimpleFormTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,10 +153,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SimpleFormTest.testSimpleForm" />
-        <item itemvalue="JUnit.FacebookLogin" />
         <item itemvalue="JUnit.SimpleFormTest.test" />
+        <item itemvalue="Application.example1" />
+        <item itemvalue="JUnit.FacebookLogin" />
         <item itemvalue="JUnit.FacebookLogin.test" />
-        <item itemvalue="JUnit.SimpleFormTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +174,14 @@
       <option name="presentableId" value="Default" />
       <updated>1618593073837</updated>
     </task>
+    <task id="LOCAL-00001" summary="util">
+      <created>1619001412878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619001412878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +194,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="util" />
+    <option name="LAST_COMMIT_MESSAGE" value="util" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
