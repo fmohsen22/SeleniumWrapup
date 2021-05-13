@@ -35,7 +35,6 @@ public class GuiLinkElement extends GuiBaseElement implements Clickable {
     waitUntilClickable();
     click(true);
     gui().withMaximumTimeout();
-    gui().waitUntilLoadingCompleted();
     gui().withDefaultImplicitTimeout();
   }
 

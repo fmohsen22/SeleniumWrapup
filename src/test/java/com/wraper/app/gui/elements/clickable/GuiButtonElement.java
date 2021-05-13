@@ -14,8 +14,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Represents a simple Button
  * 
  * html: <button id="mainId" disabled info <span for icon <span for Text .../> />
- * 
- * @author cwitteveen
  *
  */
 public class GuiButtonElement extends GuiBaseElement implements Clickable, Textual {
