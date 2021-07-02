@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="webdriver win and linux">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/menu/GuiMenuItemElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/menus/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/menus/MenuInputForms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/easyseleium/EesyDemoConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/framework/constants/ConstantsForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/framework/constants/EnumValueForm.java" afterDir="false" />
+    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/clickable/GuiButtonElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/clickable/GuiButtonElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/clickable/GuiLinkElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/clickable/GuiLinkElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/DialogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/DialogFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/PageDialogProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/PageDialogProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/BaseEasySelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/BaseEasySelenium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/SimpleFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/SimpleFormTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619018308995</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="menu">
+      <created>1620928558457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620928558457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="util" />
     <MESSAGE value="webdriver win and linux" />
-    <option name="LAST_COMMIT_MESSAGE" value="webdriver win and linux" />
+    <MESSAGE value="menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
