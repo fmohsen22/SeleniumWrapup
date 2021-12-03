@@ -21,8 +21,9 @@ public class GuiInputElement implements  Textual {
 
   protected GuiInputElement(WebDriver pWebDriverProvider, By mainElement) {
     this.mainElement = mainElement;
-    byInput = new ByChained(mainElement, By.tagName("input"));
-    byLable = new ByChained(mainElement, By.tagName("label"));
+//    byInput = new ByChained( By.tagName("input"),mainElement);
+    byInput = new ByChained(mainElement);
+    byLable = new ByChained( By.tagName("label"),mainElement);
     gui = E2ESeleniumHelper.of(pWebDriverProvider);
     this.driver = pWebDriverProvider;
   }

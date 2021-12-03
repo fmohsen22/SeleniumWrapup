@@ -2,6 +2,7 @@ package com.wraper.app.gui.pages;
 
 
 import com.wraper.app.gui.menus.MainMenu;
+import com.wraper.app.gui.pages.Suacedemo.SauceDemoPage;
 import com.wraper.app.gui.pages.easyseleium.SimpleFormDemoPage;
 import com.wraper.app.gui.pages.facebook.FacebookLoginPage;
 import com.wraper.framework.logger.MyLogger;
@@ -19,6 +20,7 @@ public class DialogFactory implements PageDialogProvider {
   public FacebookLoginPage      facebookLoginPage;
   public SimpleFormDemoPage     simpleFormDemoPage;
   public MainMenu               menu;
+  public SauceDemoPage          soucePage;
 
 
   // block standard constructor from being used
@@ -64,6 +66,14 @@ public class DialogFactory implements PageDialogProvider {
       menu = MainMenu.of(webdriverProvider);
     }
     return menu;
+  }
+
+  @Override
+  public SauceDemoPage soucePage() {
+    if (soucePage ==null){
+      soucePage = SauceDemoPage.of(webdriverProvider);
+    }
+    return soucePage;
   }
 
 

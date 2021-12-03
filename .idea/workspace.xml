@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="delete the facebook test" />
+    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="delete the facebook test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/dataoutput/GuiErrorOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/Suacedemo/SauceDemoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/swaglabs/BaseSLPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/swaglabs/LogInTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumWrapup.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/datainput/GuiInputElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/datainput/GuiInputElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/DialogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/DialogFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/PageDialogProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/pages/PageDialogProvider.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/framework/logger" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -77,13 +92,18 @@
       <recent name="app.base" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleFormTest.testSimpleForm">
-    <configuration name="example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wraper.example1" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LogInTest.testSoucePgDemo">
+    <configuration name="testbasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.seleniumeasy.testbasic" />
       <module name="SeleniumWrapup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wraper.*" />
+          <option name="PATTERN" value="com.wraper.testcases.seleniumeasy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,17 +111,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FacebookLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInTest.testSoucePgDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWrapup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wraper.testcases.facebook.*" />
+          <option name="PATTERN" value="com.wraper.testcases.swaglabs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wraper.testcases.facebook" />
-      <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.facebook.FacebookLogin" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.wraper.testcases.swaglabs" />
+      <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.swaglabs.LogInTest" />
+      <option name="METHOD_NAME" value="testSoucePgDemo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,23 +142,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFormTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWrapup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wraper.testcases.seleniumeasy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wraper.testcases.seleniumeasy" />
-      <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.seleniumeasy.SimpleFormTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFormTest.testSimpleForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleFormTest.testSimpleForm (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWrapup" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +158,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleFormTest.testSimpleForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wraper.testcases.seleniumeasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="PACKAGE_NAME" value="com.wraper.testcases.seleniumeasy" />
+      <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.seleniumeasy.SimpleFormTest" />
+      <option name="METHOD_NAME" value="testSimpleForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.testbasic" />
+      <item itemvalue="JUnit.SimpleFormTest" />
+      <item itemvalue="JUnit.SimpleFormTest.testSimpleForm" />
+      <item itemvalue="JUnit.SimpleFormTest.testSimpleForm (1)" />
+      <item itemvalue="JUnit.LogInTest.testSoucePgDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogInTest.testSoucePgDemo" />
+        <item itemvalue="JUnit.SimpleFormTest.testSimpleForm (1)" />
+        <item itemvalue="Application.testbasic" />
         <item itemvalue="JUnit.SimpleFormTest.testSimpleForm" />
         <item itemvalue="JUnit.SimpleFormTest" />
-        <item itemvalue="JUnit.SimpleFormTest.test" />
-        <item itemvalue="Application.example1" />
-        <item itemvalue="JUnit.FacebookLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -248,29 +288,19 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/datainput/GuiInputElement.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/dataoutput/GuiSimpleOutput.java</url>
           <line>33</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/dataoutput/GuiSimpleOutput.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/wraper/testcases/BaseTest.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/clickable/GuiLinkElement.java</url>
           <line>35</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/BaseEasySelenium.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
