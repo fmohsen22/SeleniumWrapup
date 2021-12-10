@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="https://www.saucedemo.com/">
+    <list default="true" id="5c23c88d-1b0b-421f-8b3d-303ea2756cc7" name="Default Changelist" comment="logger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/datainput/GuiInputElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/datainput/GuiInputElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/app/selenium/E2ESeleniumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/app/selenium/E2ESeleniumHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/BaseEasySelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/BaseEasySelenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/SimpleFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/SimpleFormTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/swaglabs/LogInTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wraper/testcases/swaglabs/LogInTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +89,7 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LogInTest.testSoucePgDemo">
+  <component name="RunManager" selected="JUnit.SimpleFormTest.testSimpleForm (1)">
     <configuration name="testbasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wraper.testcases.seleniumeasy.testbasic" />
       <module name="SeleniumWrapup" />
@@ -183,8 +187,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LogInTest.testSoucePgDemo" />
         <item itemvalue="JUnit.SimpleFormTest.testSimpleForm (1)" />
+        <item itemvalue="JUnit.LogInTest.testSoucePgDemo" />
         <item itemvalue="Application.testbasic" />
         <item itemvalue="JUnit.SimpleFormTest.testSimpleForm" />
         <item itemvalue="JUnit.SimpleFormTest" />
@@ -247,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638532024243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="logger">
+      <created>1638541686916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638541686916</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,19 +279,20 @@
     <MESSAGE value="menu" />
     <MESSAGE value="delete the facebook test" />
     <MESSAGE value="https://www.saucedemo.com/" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://www.saucedemo.com/" />
+    <MESSAGE value="logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="logger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/selenium/E2ESeleniumHelper.java</url>
-          <line>704</line>
+          <line>705</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/selenium/E2ESeleniumHelper.java</url>
-          <line>546</line>
+          <line>547</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -292,16 +304,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/gui/elements/clickable/GuiLinkElement.java</url>
           <line>35</line>
           <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/wraper/testcases/seleniumeasy/BaseEasySelenium.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/wraper/app/selenium/E2ESeleniumHelper.java</url>
-          <line>931</line>
-          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

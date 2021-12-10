@@ -22,6 +22,7 @@ public class LogInTest extends BaseSLPage{
         sauceDemoPage.logIn.click();
         sauceDemoPage.errorMsg.assertText("Epic sadface: Username and password do not match any user in this service");
 
+        testActivity("correct data as user and pass");
         testSteps(2);
         user="standard_user";
         pass = "secret_sauce";
